@@ -1,0 +1,46 @@
+/*-----Adam Demol 2022-----*/
+:root {
+  line-height: 1.5;
+  font-size: 16px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+* { margin: 0px; padding: 0px; border: 0px; box-sizing: border-box; }
+*::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; }
+body {
+  background: #111;
+  color: #efefef;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+thead {
+  background: #444;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+th {
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(even) {
+  background-color: #222
+}
+
+.sort {
+  cursor: pointer;
+  margin-inline: 10px;
+  padding: 5px 10px;
+}
